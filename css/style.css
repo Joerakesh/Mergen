@@ -9,11 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style
-*
-* ======================================================= */
+
 body {
     font-family: 'Work Sans', Arial, sans-serif;
     font-weight: 400;
@@ -70,7 +66,7 @@ body {
 /* Individual Card Styling */
 .team-card {
     background: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 350px;
@@ -81,6 +77,37 @@ body {
 .team-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(243, 85, 51, 0.8);
+}
+
+/* Team Name */
+.team-name {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 10px 0;
+    background: linear-gradient(to right, #06bbcc, #34d9dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.committee-profile-pic {
+    width: 250px; /* Increased image size */
+    height: 260px; /* Increased image size */
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+.committee-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.committee-role {
+    font-size: 1.3rem;
+    color: #f85a16;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 /* Profile Section */
