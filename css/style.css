@@ -307,6 +307,88 @@ figure {
     border-width: 8px;
     margin-left: -8px;
 }
+
+/* Editorial Board */
+/* Main Content */
+.content {
+    padding-right: 5vh;
+    padding-left: 5vh;
+    margin: 1vh auto;
+}
+
+/* Section Titles */
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    color: #004aad;
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: #f9fbfd;
+    padding: 15px 20px;
+    border: 1px solid #d9e2ec;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    word-wrap: break-word;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(239, 144, 103, 0.2);
+    background-color: #dbdbdb;
+}
+
+.card p {
+    font-size: 1.5rem;
+    margin: 8px 0;
+}
+
+/* Card Links */
+.card a {
+    text-decoration: none;
+    color: #004aad;
+}
+
+.card a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card:hover {
+    color: var(--main-color);
+}
+
 .fh5co-nav ul li.has-dropdown .dropdown li {
     display: block;
     margin-bottom: 7px;
