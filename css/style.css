@@ -310,11 +310,6 @@ figure {
 
 /* Editorial Board */
 /* Main Content */
-.content {
-  padding-right: 5vh;
-  padding-left: 5vh;
-  margin: 1vh auto;
-}
 
 /* Section Titles */
 .section {
@@ -382,6 +377,9 @@ figure {
 @media (max-width: 768px) {
   .card-container {
     grid-template-columns: 1fr;
+  }
+  .card {
+    overflow: scroll;
   }
 }
 
@@ -1718,7 +1716,7 @@ figure {
 .fh5co-nav-toggle {
   position: absolute;
   right: 0px;
-  top: 65px;
+  top: 35px;
   z-index: 21;
   padding: 6px 0 0 0;
   display: block;
