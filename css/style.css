@@ -154,6 +154,14 @@ p {
   margin-bottom: 20px;
 }
 
+#article {
+  color: #000;
+}
+
+#article:hover {
+  color: #f85a16;
+}
+
 h1,
 h2,
 h3,
