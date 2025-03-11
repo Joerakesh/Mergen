@@ -156,10 +156,23 @@ p {
 
 #article {
   color: #000;
+  font-size: 18px;
 }
 
 #article:hover {
   color: #f85a16;
+}
+#article-list li {
+  margin-bottom: 20px;
+  background-color: rgb(231, 226, 222);
+  padding: 20px;
+  border-radius: 25px;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+#article-list li:hover {
+  background-color: rgb(228, 218, 213);
+  border-radius: 30px;
 }
 
 h1,
