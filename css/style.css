@@ -757,7 +757,7 @@ figure {
 #fh5co-blog,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 7em 0px 0px 0px;
   clear: both;
 }
 @media screen and (max-width: 768px) {
