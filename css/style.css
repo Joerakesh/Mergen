@@ -203,6 +203,12 @@ figure {
   background: #f85a16;
 }
 
+#mergen-footer {
+  font-size: 15px;
+  p {
+    color: gray;
+  }
+}
 .fh5co-nav {
   margin: 0;
   padding: 0;
