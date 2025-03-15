@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>DownloadRootServlet</servlet-name>
+    <servlet-class>DownloadRootServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DownloadRootServlet</servlet-name>
+    <url-pattern>/downloadRoot</url-pattern>
+</servlet-mapping>
